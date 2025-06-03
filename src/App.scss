@@ -1,13 +1,13 @@
 .container {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
-  }
+}
   
   .app {
     font-family: "Poppins", sans-serif;
     background: #fefefe;
-    color: #222;
+    color: #000;
   }
   
   .hero {
@@ -23,6 +23,7 @@
       display: flex;
       flex-direction: column;
       color: #fff;
+    
   
       &::before {
         content: "";
@@ -31,7 +32,7 @@
         background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
         border-radius: 20px;
         z-index: 0;
-      }
+       }
   
       .navbar {
         display: flex;
@@ -89,10 +90,10 @@
           color: #fff;
   
           span {
-            border: 1px solid antiquewhite;
-            padding: 20px;
-            text-align: center;
-            border-radius: 20px;
+           border: 1px solid rgb(251, 228, 198);
+           padding: 20px;
+           border-radius: 20px;
+           background-color:rgb(251, 228, 198) ;
           }
   
           .active {
@@ -152,7 +153,7 @@
       p {
         margin-bottom: 1rem;
       }
-    
+  
       .stats {
         font-weight: bold;
         margin-bottom: 1rem;
@@ -165,9 +166,9 @@
         flex-wrap: wrap;
         gap: 1rem;
       }
-
+  
       .menu-bars {
-        padding:10px;
+        padding: 10px;
         background: rgb(167, 120, 60);
       }
   
@@ -175,8 +176,6 @@
         display: flex;
         gap: 1rem;
         font-size: 2rem;
-        
-        
   
         .planet-1,
         .planet-2,
@@ -185,8 +184,7 @@
           background-color: antiquewhite;
           padding: 10px;
           border-radius: 20px;
-          
-         }
+        }
   
         div {
           display: flex;
@@ -227,7 +225,7 @@
   
         img {
           width: 150px;
-          height: 100%;
+          height: auto;
           object-fit: cover;
         }
   
@@ -257,15 +255,15 @@
     }
   }
 
-
+  
   @media (max-width: 992px) {
-    .hero-image {
+    .hero .hero-image {
       height: 400px;
       padding: 1rem;
     }
   
     .info {
-      flex-direction: column;
+      flex-direction: row;
   
       .left-info,
       .right-cards {
@@ -275,26 +273,33 @@
   }
   
   @media (max-width: 768px) {
-    .navbar {
+    .hero .navbar {
       flex-direction: column;
       align-items: flex-start;
+      gap: 0.5rem;
     }
   
-    .hero-content {
+    .hero .hero-content {
       flex-direction: column;
       align-items: center;
+      text-align: center;
   
       .pagination {
         flex-direction: row;
+        justify-content: center;
+      }
+  
+      .side-cards {
+        align-items: center;
       }
     }
   
-    .bottom-row {
+    .info .bottom-row {
       flex-direction: column;
       align-items: flex-start;
     }
   
-    .space-card {
+    .right-cards .space-card {
       flex-direction: column;
   
       img {
@@ -305,22 +310,22 @@
   }
   
   @media (max-width: 576px) {
-    .hero-image {
+    .hero .hero-image {
       height: 300px;
     }
   
-    .cta-btn {
+    .hero .cta-btn {
       width: 60px;
       height: 60px;
       font-size: 1.5rem;
     }
   
-    h1 {
-      font-size: 36px;
+    .info h1 {
+      font-size: 32px;
     }
   
-    h2 {
-      font-size: 1.5rem;
+    .info h2 {
+      font-size: 1.4rem;
     }
   
     .discover {
