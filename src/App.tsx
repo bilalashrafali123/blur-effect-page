@@ -32,8 +32,6 @@ const App = () => {
           </div>
         </div>
       </section>
-     
-
       <section className="info">
         <div className="left-info">
           <h1>Cosmic Connections</h1>
@@ -63,7 +61,6 @@ const App = () => {
             </div>
           </div>
         </div>
-
         <div className="right-cards">
           <div className="space-card">
             <img
