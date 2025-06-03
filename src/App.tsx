@@ -7,12 +7,11 @@ const App = () => {
       <section className="hero">
         <div className="hero-image">
           <header className="navbar">
-            <button className="menu-btn">Menu</button>
+            <button className="menu-btn">Menu <span className='menu-bars'><i className="fa-solid fa-bars-staggered"></i></span></button>
             <div className="lang-select">🌐 EN FR DUBAI</div>
             <input type="text" className="search" placeholder="Searchings..." />
             <div className="profile">👤 Zarah</div>
           </header>
-
           <div className="hero-content">
             <div className="pagination">
               <span className="active">01</span>
@@ -21,11 +20,10 @@ const App = () => {
               </div>
               
 
-            {/* <div className="cta-div">
+            <div className="cta-div">
               <button className="cta-btn">→</button>
-            </div> */}
-
-            <div className="side-cards">
+            </div>
+             <div className="side-cards">
               <div className="mini-card">With Kids</div>
               <div className="mini-card">And Pets</div>
             </div>
@@ -43,9 +41,7 @@ const App = () => {
             articles, videos, and guides.
           </p>
           <div className="stats">+46k Enjoy travel with us</div>
-
           <div className="bottom-row">
-
             <button className="discover">Discover More</button>
             <div className="icons">
               <div className="planet-1">
@@ -56,7 +52,6 @@ const App = () => {
               </div>
               <div className="planet-3">
                 🌑 <span>Unleash your <br /> inner astronaut</span>
-            
               </div>
             </div>
           </div>
