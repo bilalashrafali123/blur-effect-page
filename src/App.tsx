@@ -21,7 +21,7 @@ const App = () => {
                 className="search"
                 placeholder="Explore / Search......"
               />
-              <div className="profile">👤 Zarah</div>
+              <div className="profile">👩 ZARAH</div>
             </header>
             <div className="hero-content">
               <div className="pagination">
