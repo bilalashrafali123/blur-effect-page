@@ -25,9 +25,9 @@ const App = () => {
             </header>
             <div className="hero-content">
               <div className="pagination">
-                <span className="active">01</span>
-                <span>02</span>
-                <span>03</span>
+                <span className="active">001</span>
+                <span>002</span>
+                <span>003</span>
               </div>
               <div className="cta-div">
                 <button className="cta-btn">➜</button>
