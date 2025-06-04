@@ -1,11 +1,11 @@
 .container {
- width: 100%;
- max-width: 1100px;
- margin: 0 auto;
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
 }
 
 body {
-   background-color: antiquewhite;
+  background-color:antiquewhite;
 }
 
 .app {
@@ -16,12 +16,12 @@ body {
 
 .hero {
   .hero-image {
-    position: relative;
+    position:relative;
     height: 500px;
     background-image: url("./assets/astraunaut.jpg");
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 20px;
     padding: 1.5rem 2rem;
     display: flex;
@@ -46,7 +46,7 @@ body {
       flex-wrap: wrap;
       gap: 1rem;
       background: rgba(92, 92, 92, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0);
       padding: 0.75rem 1rem;
       border-radius: 20px;
       backdrop-filter: blur(15px);
@@ -63,9 +63,9 @@ body {
         color: white;
       }
 
-      .lang-select {
-        color: #ffff;
-      }
+    .lang-select {
+      color: white;
+    }
 
       .search {
         background: rgba(255, 255, 255, 0.15);
@@ -86,7 +86,7 @@ body {
         padding: 0.5rem 1rem;
         border-radius: 8px;
         font-size: 1rem;
-        cursor:pointer;
+        cursor: pointer;
       }
 
       .search {
@@ -202,7 +202,7 @@ body {
       display: flex;
       gap: 1rem;
       font-size: 2rem;
-      
+
       .planet-1,
       .planet-2,
       .planet-3 {
@@ -261,8 +261,7 @@ body {
       background-position: center center;
       background-repeat: no-repeat;
       margin-top: 20px;
-      
-      
+
       img {
         width: 150px;
         height: auto;

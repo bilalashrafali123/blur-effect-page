@@ -1,7 +1,6 @@
 import "./App.scss";
 
 const App = () => {
-  
   return (
     <div className="container">
       <div className="app">
@@ -9,13 +8,13 @@ const App = () => {
           <div className="hero-image">
             <header className="navbar">
               <div className="menu-bg">
-              <span className="menu-btn">
-                Menu {" "}
-                <span className="menu-bars">
-                  <i className="fa-solid fa-bars-staggered"></i>
+                <span className="menu-btn">
+                  Menu{" "}
+                  <span className="menu-bars">
+                    <i className="fa-solid fa-bars-staggered"></i>
+                  </span>
                 </span>
-              </span>
-                </div>
+              </div>
               <div className="lang-select">🌐 EN FR DUBAI</div>
               <input
                 type="text"
@@ -87,7 +86,7 @@ const App = () => {
               </div>
             </div>
             <div className="space-card">
-            <div className="text">
+              <div className="text">
                 <strong>02</strong>
                 <p>
                   Neptune is the 8<sup>th</sup> planet from the sun
