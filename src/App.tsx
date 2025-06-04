@@ -1,6 +1,6 @@
 import "./App.scss";
 
-const App = () => {
+const App = () =>{
   return (
     <div className="container">
       <div className="app">
@@ -100,10 +100,5 @@ const App = () => {
     </div>
   );
 };
-
-
-
-
-
 
 export default App;
