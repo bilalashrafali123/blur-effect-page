@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./App.scss"
 
 const App = () => {
   return (
@@ -98,6 +98,7 @@ const App = () => {
         </section>
       </div>
     </div>
+  
   );
 };
 
