@@ -1,6 +1,7 @@
 import "./App.scss";
 
 const App = () => {
+  
   return (
     <div className="container">
       <div className="app">
@@ -9,7 +10,7 @@ const App = () => {
             <header className="navbar">
               <div className="menu-bg">
               <span className="menu-btn">
-                Menu{" "}
+                Menu {" "}
                 <span className="menu-bars">
                   <i className="fa-solid fa-bars-staggered"></i>
                 </span>
