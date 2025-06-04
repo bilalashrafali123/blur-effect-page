@@ -1,12 +1,16 @@
 .container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+ width: 100%;
+ max-width: 1100px;
+ margin: 0 auto;
+}
+
+body {
+   background-color: antiquewhite;
 }
 
 .app {
   font-family: "Poppins", sans-serif;
-  background-color: #fefefe;
+  background-color: antiquewhite;
   color: black;
 }
 
@@ -28,9 +32,9 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
       border-radius: 20px;
-      z-index: 0;
+      z-index: 1;
     }
 
     .navbar {
@@ -45,13 +49,11 @@
       border: 1px solid rgba(255, 255, 255, 0.2);
       padding: 0.75rem 1rem;
       border-radius: 20px;
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
 
       .menu-btn {
         background: rgba(255, 255, 255, 0.15);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.2);
         padding: 10px;
         border-radius: 20px;
@@ -65,7 +67,16 @@
         color: #ffff;
       }
 
-      .search,
+      .search {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        font-size: 1rem;
+      }
       .profile {
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
@@ -75,6 +86,7 @@
         padding: 0.5rem 1rem;
         border-radius: 8px;
         font-size: 1rem;
+        cursor:pointer;
       }
 
       .search {
@@ -98,7 +110,6 @@
         gap: 1rem;
         font-weight: bold;
         color: #fff;
-       
 
         span {
           padding: 20px;
@@ -108,8 +119,6 @@
           backdrop-filter: blur(10px);
           -webkit-backdrop-filter: blur(10px);
         }
-        
-       
       }
 
       .cta-div {
@@ -132,16 +141,17 @@
         gap: 1rem;
 
         .mini-card {
-          background: rgba(92, 92, 92, 0.1);
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
           color: #000;
           padding: 1rem;
           border-radius: 12px;
           font-weight: bold;
           text-align: center;
           color: white;
+          cursor: pointer;
+          background: rgba(92, 92, 92, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
         }
       }
     }
@@ -192,12 +202,16 @@
       display: flex;
       gap: 1rem;
       font-size: 2rem;
-
+      
       .planet-1,
       .planet-2,
       .planet-3 {
         text-align: center;
-        background-color: antiquewhite;
+        background-color: black;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0);
         padding: 10px;
         border-radius: 20px;
       }
@@ -217,11 +231,14 @@
 
     .discover {
       background: #222;
-      color: #fff;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       padding: 0.75rem 1.5rem;
       border-radius: 10px;
       border: none;
       cursor: pointer;
+      color: white;
     }
   }
 
@@ -233,12 +250,19 @@
 
     .space-card {
       display: flex;
-      background: #fff;
+      justify-content: center;
+      flex-direction: row;
       border-radius: 16px;
       overflow: hidden;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      flex-direction: row;
-
+      color: white;
+      background-image: url("./assets/Neptune.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      margin-top: 20px;
+      
+      
       img {
         width: 150px;
         height: auto;
@@ -260,11 +284,13 @@
         }
 
         button {
-          background: #000;
-          color: #fff;
-          border: none;
+          background: rgba(255, 255, 255, 0.15);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.2);
           padding: 0.5rem 1rem;
           border-radius: 8px;
+          cursor: pointer;
         }
       }
     }

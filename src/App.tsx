@@ -20,7 +20,7 @@ const App = () => {
               <input
                 type="text"
                 className="search"
-                placeholder="Searchings..."
+                placeholder="Explore / Search......"
               />
               <div className="profile">👤 Zarah</div>
             </header>
@@ -78,10 +78,6 @@ const App = () => {
           </div>
           <div className="right-cards">
             <div className="space-card">
-              <img
-                src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Jupiter"
-              />
               <div className="text">
                 <strong>01</strong>
                 <p>
@@ -91,11 +87,7 @@ const App = () => {
               </div>
             </div>
             <div className="space-card">
-              <img
-                src="https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Neptune"
-              />
-              <div className="text">
+            <div className="text">
                 <strong>02</strong>
                 <p>
                   Neptune is the 8<sup>th</sup> planet from the sun
