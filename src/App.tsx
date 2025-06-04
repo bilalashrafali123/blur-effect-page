@@ -7,12 +7,14 @@ const App = () => {
         <section className="hero">
           <div className="hero-image">
             <header className="navbar">
-              <button className="menu-btn">
+              <div className="menu-bg">
+              <span className="menu-btn">
                 Menu{" "}
                 <span className="menu-bars">
                   <i className="fa-solid fa-bars-staggered"></i>
                 </span>
-              </button>
+              </span>
+                </div>
               <div className="lang-select">🌐 EN FR DUBAI</div>
               <input
                 type="text"
@@ -28,7 +30,7 @@ const App = () => {
                 <span>03</span>
               </div>
               <div className="cta-div">
-                <button className="cta-btn">→</button>
+                <button className="cta-btn">➜</button>
               </div>
               <div className="side-cards">
                 <div className="mini-card">With Kids</div>

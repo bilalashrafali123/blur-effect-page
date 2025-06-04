@@ -6,9 +6,9 @@
 
 .app {
   font-family: "Poppins", sans-serif;
-   background-color: #fefefe;
-   color: black;
-  }  
+  background-color: #fefefe;
+  color: black;
+}
 
 .hero {
   .hero-image {
@@ -28,11 +28,9 @@
       content: "";
       position: absolute;
       inset: 0;
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
       border-radius: 20px;
       z-index: 0;
-      -webkit-backdrop-filter: blur(10px);
-      backdrop-filter: blur(10px);
     }
 
     .navbar {
@@ -43,32 +41,43 @@
       z-index: 1;
       flex-wrap: wrap;
       gap: 1rem;
+      background: rgba(92, 92, 92, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 0.75rem 1rem;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
 
       .menu-btn {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
         padding: 10px;
         border-radius: 20px;
         width: 100px;
-        background-color: antiquewhite;
-        border: 1px solid rgb(37, 37, 37);
+        text-align: center;
+        cursor: pointer;
+        color: white;
       }
 
       .lang-select {
-        color: #fff;
+        color: #ffff;
       }
 
       .search,
       .profile {
-        background: rgba(255, 255, 255, 0.1);
-        color: #fff;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
         padding: 0.5rem 1rem;
-        border: none;
         border-radius: 8px;
         font-size: 1rem;
       }
 
       .search {
-        background: rgba(255, 255, 255, 0.2);
-        border: 1px solid #ccc;
         width: 200px;
       }
     }
@@ -89,18 +98,18 @@
         gap: 1rem;
         font-weight: bold;
         color: #fff;
+       
 
         span {
-          border: 1px solid rgb(251, 228, 198);
           padding: 20px;
           border-radius: 20px;
-          background-color: rgb(251, 228, 198);
+          background: rgba(92, 92, 92, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
         }
-
-        .active {
-          background-color: antiquewhite;
-          color: white;
-        }
+        
+       
       }
 
       .cta-div {
@@ -108,10 +117,12 @@
           width: 80px;
           height: 80px;
           border-radius: 50%;
-          background: #fcd77c;
-          border: none;
           font-size: 2rem;
-          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+          background: rgba(92, 92, 92, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          color: white;
         }
       }
 
@@ -121,12 +132,16 @@
         gap: 1rem;
 
         .mini-card {
-          background: rgba(255, 255, 255, 0.8);
+          background: rgba(92, 92, 92, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
           color: #000;
           padding: 1rem;
           border-radius: 12px;
           font-weight: bold;
           text-align: center;
+          color: white;
         }
       }
     }
