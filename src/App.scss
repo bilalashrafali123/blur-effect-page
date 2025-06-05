@@ -8,7 +8,6 @@ body {
   background-color: rgba(255, 232, 202, 0.862);
 }
 
-
 .app {
   font-family: "Poppins", sans-serif;
   color: black;
@@ -81,11 +80,10 @@ body {
       .profile {
         background: rgba(255, 255, 255, 0.15);
         backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        -webkit-backdrop-filter:blur(10px);
+        border: 1px solid rgba(255 , 255 , 255  , 0.2);
         color: white;
-        padding: 0.5rem 1rem;
-        border-radius: 8px;
+        padding:0.5rem 1rem ;
         font-size: 1rem;
         cursor: pointer;
       }
@@ -158,12 +156,13 @@ body {
           background: rgba(92, 92, 92, 0.1);
           border: 1px solid rgba(255, 255, 255, 0.2);
           backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
+          -webkit-backdrop-filter:blur(10px);
         }
       }
     }
   }
-}
+}      
+
 
 .info {
   display: flex;
